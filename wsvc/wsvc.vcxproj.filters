@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{837be9e9-46fa-410a-a8ed-74046e29d09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\wsvc">
+      <UniqueIdentifier>{f18061fa-7cb0-4ac5-a399-97db544ba363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\wsvc">
+      <UniqueIdentifier>{9824aca8-4ed7-4cbe-820a-e2a17eeef7dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\sources\wsvc\eventlog.c">
+      <Filter>sources\wsvc</Filter>
+    </ClCompile>
+    <ClCompile Include="code\sources\wsvc\service.c">
+      <Filter>sources\wsvc</Filter>
+    </ClCompile>
+    <ClCompile Include="code\sources\main.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="code\sources\wsvc\console.c">
+      <Filter>sources\wsvc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\headers\wsvc\eventlog.h">
+      <Filter>headers\wsvc</Filter>
+    </ClInclude>
+    <ClInclude Include="code\headers\wsvc\service.h">
+      <Filter>headers\wsvc</Filter>
+    </ClInclude>
+    <ClInclude Include="code\headers\wsvc\wsvc.h">
+      <Filter>headers\wsvc</Filter>
+    </ClInclude>
+    <ClInclude Include="code\headers\wsvc\console.h">
+      <Filter>headers\wsvc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
